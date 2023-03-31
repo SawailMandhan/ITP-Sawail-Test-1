@@ -22,3 +22,12 @@ def clinic():
     fulltotal=total+tax
     print("\n")
     print("Melanie Dental Clinic")
+    print("---------------------")
+    print("Receipt for patient name: ",name)    
+    print("-----------------------------------------")    
+    print("Subtotal: ",total)
+    print("Tax: ",tax)
+    print("-----------------------------------------") 
+    print("Total: ",fulltotal)
+
+clinic()
