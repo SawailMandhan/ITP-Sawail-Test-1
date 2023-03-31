@@ -13,3 +13,12 @@ def clinic():
         total+=200
     if xray.lower()=="y":
         total+=100
+    if total>300:
+        total=total*90/100
+    elif total>200:
+        total=total*95/100  
+      #print 15% tax will also added in the final payment
+    tax=15/100*total
+    fulltotal=total+tax
+    print("\n")
+    print("Melanie Dental Clinic")
